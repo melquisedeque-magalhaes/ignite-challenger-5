@@ -2,6 +2,17 @@
   display: flex;
   flex-direction: column;
   cursor: pointer;
+  background: transparent;
+  border: 0;
+  text-decoration: none;
+  color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  transition: 2s border;
+
+  &:hover {
+    border: 1px solid var(--HIGHLIGHT);
+  }
 
   + .post {
     padding: 2rem 0;
