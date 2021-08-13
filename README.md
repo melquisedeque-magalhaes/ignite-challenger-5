@@ -18,9 +18,6 @@
 
 &nbsp;
 
-<h1 aling="center">
-    <img src="./public/images/Logo.svg" />
-</h1>
 
 &nbsp;
 
