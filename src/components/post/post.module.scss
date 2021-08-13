@@ -6,16 +6,17 @@
   border: 0;
   text-decoration: none;
   color: #fff;
-  padding: 16px;
+  padding: 1rem;
   border-radius: 8px;
   transition: 2s border;
+  margin-bottom: 2rem;
 
   &:hover {
     border: 1px solid var(--HIGHLIGHT);
   }
 
   + .post {
-    padding: 2rem 0;
+    padding: 2rem 1rem;
   }
 
   h2 {
@@ -34,6 +35,7 @@
     text-align: justify;
     line-height: 22px;
     font-weight: normal;
+    max-width: 80%;
   }
 }
 
