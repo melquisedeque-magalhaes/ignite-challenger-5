@@ -18,7 +18,9 @@
 
 &nbsp;
 
-![mock2](https://user-images.githubusercontent.com/71772559/113493556-91711c80-94b6-11eb-8580-17c7fd509640.png)
+<h1 aling="center">
+    <img src="./public/images/Logo.svg" />
+</h1>
 
 &nbsp;
 
