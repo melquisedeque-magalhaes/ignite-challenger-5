@@ -1,0 +1,29 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+
+  + .post {
+    padding: 2rem 0;
+  }
+
+  h2 {
+    margin-top: 1.75rem;
+    font-weight: bold;
+    color: var(--HEADING);
+    text-align: justify;
+    letter-spacing: -0.5px;
+    font-family: 'Inter';
+  }
+
+  p {
+    margin: 1rem 0rem;
+    font-family: 'Inter';
+    font-size: 1.125rem;
+    text-align: justify;
+    line-height: 22px;
+    font-weight: normal;
+  }
+}
+
+

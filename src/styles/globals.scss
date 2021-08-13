@@ -1,7 +1,39 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-// TODO
+:root {
+  --BACKGROUND: #1A1D23;
+  --INFO: #BBBBBB;
+  --BODY: #D7D7D7;
+  --HIGHLIGHT: #FF57B2;
+  --HEADING: #F8F8F8;
+}
+
+@media(max-width: 1080px){
+  html {
+      font-size: 93.75%;
+  }
+}
+
+@media(max-width: 720px){
+  html {
+      font-size: 87.5%;
+  }
+}
+
+body {
+  background-color: var(--BACKGROUND);
+  color: var(--BODY);
+  -webkit-font-smoothing: antialiased;
+}
+
+body, textarea, input, select, button {
+  font: 400 1rem "Inter", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
